@@ -1,0 +1,18 @@
+{
+  "display_name": "接入点切换器",
+  "loading_order": 150,
+  "dependencies": [],
+  "js": "index.js",
+  "author": "cjhkcjgk3-sys",
+  "version": "1.0.0",
+  "homePage": "https://github.com/cjhkcjgk3-sys/st-endpoint-switcher",
+  "auto_update": false,
+  "hooks": {
+    "activate": "onActivate",
+    "enable": "onActivate",
+    "disable": "onDisable",
+    "delete": "onDisable"
+  },
+  "css": "style.css",
+  "minimum_client_version": "1.18.0"
+}

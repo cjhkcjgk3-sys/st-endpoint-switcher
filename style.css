@@ -1,0 +1,16 @@
+#ep-switcher { margin:8px 0 16px; padding:12px; border:1px solid var(--SmartThemeBorderColor); border-radius:8px; color:var(--SmartThemeBodyColor); }
+#ep-switcher * { box-sizing:border-box; }
+#ep-switcher summary { cursor:pointer; font-weight:600; min-height:32px; }
+#ep-switcher .ep-body { padding-top:6px; }
+#ep-switcher .ep-select-row { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:8px; align-items:center; }
+#ep-switcher .ep-actions { display:flex; gap:6px; flex-wrap:wrap; margin:8px 0; }
+#ep-switcher button { margin:0; width:auto; min-width:62px; max-width:none; min-height:40px; padding:7px 12px; font:inherit; color:inherit; white-space:nowrap; flex-shrink:0; }
+#ep-switcher input,#ep-switcher select { width:100%; min-width:0; min-height:40px; font:inherit; }
+#ep-switcher label { display:block; margin-top:8px; }
+#ep-switcher #ep-editor { border-top:1px solid var(--SmartThemeBorderColor); padding-top:4px; margin-top:10px; }
+#ep-switcher .ep-current,#ep-switcher #ep-status { margin-top:6px; font-size:.9em; overflow-wrap:anywhere; }
+#ep-switcher #ep-status:empty { display:none; }
+#ep-switcher .ep-error { color:var(--warning, #ff9f8e); }
+#ep-switcher button:disabled { opacity:.45; cursor:default; }
+#ep-switcher :focus-visible { outline:2px solid var(--SmartThemeQuoteColor); outline-offset:2px; }
+@media(max-width:600px) { #ep-switcher button,#ep-switcher input,#ep-switcher select { min-height:44px; } }
